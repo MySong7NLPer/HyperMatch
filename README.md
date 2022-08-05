@@ -28,6 +28,19 @@ Please cite our paper if our experimental results, analysis conclusions or the c
 ```
 
 
+## CONTACT
+
+For any question, feel free to create an issue, and we will try our best to solve. \
+**If the problem is more urgent**, you can send an email to me at the same time (I check email almost everyday 😉).
+
+```
+NAME: Mingyang Song
+EMAIL: mingyang.song@bjtu.edu.cn
+```
+
+
+
+
 Our implementation is built on the source code from [BERT-KPE](https://github.com/thunlp/BERT-KPE). Thanks for their work.
 
 
