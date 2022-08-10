@@ -202,8 +202,7 @@ class RobertaForTFRanking(RobertaForCnnGramRanking):
             vectors = sequence_output[i][valid_ids[i] == 1]
             valid_output[i, :valid_num].copy_(vectors)
         sequence_output = self.dropout(valid_output)
-        hyper_sequence_output = torch.matmul(sequence_output, self.hyper_rank)
-        mean_document = torch.mean(hyper_sequence_output, dim=1).unsqueeze(1)
+        mean_document = torch.mean(sequence_output, dim=1).unsqueeze(1)
         ngrams_outputs = self.cnn2gram(sequence_output)
         # --------------------------------------------------------------------------------
         # Importance Score
