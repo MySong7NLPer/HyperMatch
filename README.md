@@ -1,6 +1,7 @@
 # HyperMatch
 This repository provides the code of the paper [Hyperbolic Relevance Matching for Neural Keyphrase Extraction](http://arxiv.org/abs/2205.02047) (NAACL2022).
 
+The predicted results are [here](https://github.com/MySong7NLPer/HyperMatch/tree/main/results).
 
 Please cite our paper if our experimental results, analysis conclusions or the code are helpful to you ~ 😊
 
