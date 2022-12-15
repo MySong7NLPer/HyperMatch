@@ -3,6 +3,8 @@ This repository provides the code of the paper [Hyperbolic Relevance Matching fo
 
 The predicted results are [here](https://github.com/MySong7NLPer/HyperMatch/tree/main/results).
 
+When using, you only need to copy the code of the HyperMatch model in the associated file (defined in networks/HyperMatch.py) to another file (networks/Roberta2Rank.py). Then train the model according to the corresponding script.
+
 Please cite our paper if our experimental results, analysis conclusions or the code are helpful to you ~ 😊
 
 ```
